@@ -60,6 +60,4 @@ func main() {
 	fmt.Println(globalConstantVariableOne, globalConstantVariableTwo, globalConstantInSecondBlock) //global constant
 
 	palindromeChecker("yoyoy")
-	
-
 }

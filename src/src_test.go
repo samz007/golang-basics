@@ -4,9 +4,8 @@ import (
 	"testing"
 )
 
-
 // run test|debug test
-func TestPalindromeChecker(t *testing.T){
+func TestPalindromeChecker(t *testing.T) {
 	if palindromeChecker("yoy") != true {
 		t.Fail()
 	}

@@ -3,14 +3,13 @@ package src
 import "fmt"
 import "strings"
 
-
 func palindromeChecker(inputString string) bool {
 	fmt.Println("Inside palindrome checker function")
-	if (strings.Compare(inputString, reverse_string(inputString) ) == 0){
-	fmt.Println("Given input string : ", inputString ,"is a palindrome")	
+	if strings.Compare(inputString, reverse_string(inputString)) == 0 {
+		fmt.Println("Given input string : ", inputString, "is a palindrome")
 		return true
 	}
-	fmt.Println("Given input string : ", inputString ,"is not a palindrome")	
+	fmt.Println("Given input string : ", inputString, "is not a palindrome")
 	return false
 }
 
