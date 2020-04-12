@@ -1,5 +1,5 @@
 # golang-basics
-Repository to demo basic of Golang, Learning new language is always a fun!!!
+Repository to demo basic of Golang, Learning new language is always fun!!!
 
 Resources:
 
